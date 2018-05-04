@@ -3,6 +3,7 @@ import java.awt.*;
 
 public class TapVe extends JPanel implements Runnable {
     Oto oto = new Oto();
+    boolean stop = false;
     public TapVe(){
         Thread threadTV = new Thread(this);
         threadTV.start();
@@ -19,13 +20,18 @@ public class TapVe extends JPanel implements Runnable {
     public void run() {
         while (true){
             repaint();
-            oto.giamX();
+            if( stop == false){
+                oto.goX();
+            }
             try {
-                Thread.sleep(10);
+                Thread.sleep(5);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
             oto.laplaiX();
         }
+    }
+    public void setStop(){
+        stop = true;
     }
 }
