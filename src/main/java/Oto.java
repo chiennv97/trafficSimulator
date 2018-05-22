@@ -3,44 +3,38 @@ import java.awt.*;
 import java.util.Random;
 
 public class Oto extends JPanel {
-    private static int x1= 1000, x2= x1 + 70, x3 = x2 +70 , x4 = x3 + 70;
-    private static int h1, h2, h3, h4;
+    private static int x1= 1000;
+    private static int h1;
+    private static boolean b1= true;
+    private static int stopx = -50;
+    private static int tempt = 0;
     public void random(){
         Random rd = new Random();
-        h1 = rd.nextInt(50);
-        h2 = rd.nextInt(50);
-        h3 = rd.nextInt(50);
-        h4 = rd.nextInt(50);
+        if(b1 != false){
+            h1 = rd.nextInt(500);
+            b1 =false;
+        }
     }
     public void paint(Graphics g,int width, int height){
         random();
-        g.setColor(Color.RED);
-        g.fillRect(width, x1+ h1, 30, 50);
-        g.setColor(Color.RED);
-        g.fillRect(width, x2 + h2, 30, 50);
-        g.setColor(Color.RED);
-        g.fillRect(width, x3 + h3, 30, 50);
-        g.setColor(Color.RED);
-        g.fillRect(width, x4 + h4, 30, 50);
+        for(int i=0; i< 5; i++){
+            tempt = x1 + 170*(i+1);
+            g.setColor(Color.RED);
+            g.fillRect(width, tempt, 30, 50);
+        }
     }
     public void goX(){
-        x1 = x1 -2;
-        x2 = x2 -2;
-        x3 = x3 -2;
-        x4 = x4 -2;
+//        if(x1 > stopx){
+            x1 = x1 -2;
+//        }
     }
     public void laplaiX(){
-        if(x1 == -50){
+        if(x1 == -50 -170*7){
             x1 = 1000;
+            b1 =true;
         }
-        if(x2 == -50){
-            x2 = 1000;
-        }
-        if(x3 == -50){
-            x3 = 1000;
-        }
-        if(x4 == -50){
-            x4 = 1000;
-        }
+    }
+    public void setStopx(){
+        stopx = -50;
     }
 }

@@ -32,6 +32,6 @@ public class TapVe extends JPanel implements Runnable {
         }
     }
     public void setStop(){
-        stop = true;
+        oto.setStopx();
     }
 }

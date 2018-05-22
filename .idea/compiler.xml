@@ -9,8 +9,5 @@
         <module name="traffic" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="traffic" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
