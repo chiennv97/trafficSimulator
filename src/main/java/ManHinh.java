@@ -1,9 +1,13 @@
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class ManHinh extends JFrame {
-    TapVe tapveM = new TapVe();
+    static TapVe tapveM = new TapVe();
+    static ManHinh mh;
     public ManHinh(){
         setSize(1200, 1000);
         setVisible(true);
@@ -29,8 +33,8 @@ public class ManHinh extends JFrame {
             }
         });
     }
-
     public static void main(String[] args) {
-        ManHinh mh = new ManHinh();
+        mh = new ManHinh();
+        new MyGridLayout(tapveM);
     }
 }

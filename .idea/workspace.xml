@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93678d5a-922f-4c88-9da3-15e7b9f4dc2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OtoTurnLeft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OtoTurnRight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OtoY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OtoYTurnLeft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OtoYTurnRight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PositionExtend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyGridLayout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ManHinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManHinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Oto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Oto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TapVe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TapVe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ManHinh$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ManHinh$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ManHinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ManHinh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Oto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Oto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TapVe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TapVe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TapVe.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,17 +24,35 @@
       <file leaf-file-name="ManHinh.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ManHinh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="68">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TapVe.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyGridLayout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MyGridLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TapVe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TapVe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+            <state relative-caret-position="340">
+              <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+              <folding>
+                <element signature="e#14067#14068#0" expanded="true" />
+                <element signature="e#14101#14102#0" expanded="true" />
+                <element signature="e#14126#14127#0" expanded="true" />
+                <element signature="e#14167#14168#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,22 +60,11 @@
       <file leaf-file-name="Oto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Oto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="104" selection-end-column="5" />
+            <state relative-caret-position="17">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3345#3346#0" expanded="true" />
-                <element signature="e#3376#3377#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Position.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Position.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -72,12 +72,10 @@
       <file leaf-file-name="OtoY.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/OtoY.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
+            <state relative-caret-position="459">
               <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3797#3798#0" expanded="true" />
-                <element signature="e#3828#3829#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,26 +84,22 @@
       <file leaf-file-name="OtoYTurnRight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/OtoYTurnRight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-493">
+            <state relative-caret-position="272">
               <caret line="19" column="16" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4192#4193#0" expanded="true" />
-                <element signature="e#4223#4224#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OtoTurnLeft.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OtoTurnLeft.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/OtoTurnLeft.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="20" column="146" selection-start-line="20" selection-start-column="138" selection-end-line="20" selection-end-column="146" />
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4141#4142#0" expanded="true" />
-                <element signature="e#4172#4173#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,12 +117,10 @@
       <file leaf-file-name="OtoYTurnLeft.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/OtoYTurnLeft.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="493">
               <caret line="31" column="117" selection-start-line="31" selection-start-column="117" selection-end-line="31" selection-end-column="117" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4229#4230#0" expanded="true" />
-                <element signature="e#4260#4261#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,12 +129,10 @@
       <file leaf-file-name="OtoTurnRight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/OtoTurnRight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
+            <state relative-caret-position="918">
               <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4103#4104#0" expanded="true" />
-                <element signature="e#4134#4135#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,7 +169,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Postion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ManHinh.java" />
         <option value="$PROJECT_DIR$/src/main/java/Position.java" />
         <option value="$PROJECT_DIR$/src/main/java/PositionExtend.java" />
         <option value="$PROJECT_DIR$/src/main/java/Oto.java" />
@@ -188,7 +177,10 @@
         <option value="$PROJECT_DIR$/src/main/java/OtoYTurnRight.java" />
         <option value="$PROJECT_DIR$/src/main/java/OtoY.java" />
         <option value="$PROJECT_DIR$/src/main/java/OtoYTurnLeft.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TextInputDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ManHinh.java" />
         <option value="$PROJECT_DIR$/src/main/java/TapVe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyGridLayout.java" />
       </list>
     </option>
   </component>
@@ -205,6 +197,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,7 +232,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -254,9 +246,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ManHinh">
     <configuration name="ManHinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ManHinh" />
+      <module name="traffic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MyGridLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyGridLayout" />
+      <module name="traffic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TextInputDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextInputDemo" />
       <module name="traffic" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -301,9 +303,16 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.ManHinh" />
+      <item itemvalue="Application.TextInputDemo" />
+      <item itemvalue="Application.MyGridLayout" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ManHinh" />
+        <item itemvalue="Application.MyGridLayout" />
+        <item itemvalue="Application.TextInputDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -342,11 +351,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5019531" side_tool="true" weight="0.26675788" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32909605" />
-      <window_info active="true" anchor="right" id="Run" order="8" sideWeight="0.49804688" visible="true" weight="0.07986577" />
+      <window_info active="true" anchor="right" id="Run" order="8" sideWeight="0.49804688" visible="true" weight="0.26778522" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.24011299" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13892618" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -365,30 +374,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/OtoTurnRight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4103#4104#0" expanded="true" />
-            <element signature="e#4134#4135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OtoTurnLeft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="49" column="78" selection-start-line="49" selection-start-column="78" selection-end-line="49" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4141#4142#0" expanded="true" />
-            <element signature="e#4172#4173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -402,8 +387,6 @@
           <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3345#3346#0" expanded="true" />
-            <element signature="e#3376#3377#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -442,8 +425,6 @@
           <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3345#3346#0" expanded="true" />
-            <element signature="e#3376#3377#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -475,8 +456,6 @@
           <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3345#3346#0" expanded="true" />
-            <element signature="e#3376#3377#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -508,8 +487,6 @@
           <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3345#3346#0" expanded="true" />
-            <element signature="e#3376#3377#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -678,7 +655,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="27" />
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -689,18 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Oto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="104" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3345#3346#0" expanded="true" />
-            <element signature="e#3376#3377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PositionExtend.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -708,77 +673,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OtoTurnLeft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="146" selection-start-line="20" selection-start-column="138" selection-end-line="20" selection-end-column="146" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4141#4142#0" expanded="true" />
-            <element signature="e#4172#4173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OtoTurnRight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
+        <state relative-caret-position="918">
           <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4103#4104#0" expanded="true" />
-            <element signature="e#4134#4135#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OtoY.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="459">
           <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3797#3798#0" expanded="true" />
-            <element signature="e#3828#3829#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OtoYTurnRight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
+        <state relative-caret-position="272">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4192#4193#0" expanded="true" />
-            <element signature="e#4223#4224#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OtoYTurnLeft.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="493">
           <caret line="31" column="117" selection-start-line="31" selection-start-column="117" selection-end-line="31" selection-end-column="117" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4229#4230#0" expanded="true" />
-            <element signature="e#4260#4261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TextInputDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#2854#2855#0" expanded="true" />
+            <element signature="e#2888#2889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Oto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ManHinh.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="68">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TapVe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+        <state relative-caret-position="340">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+          <folding>
+            <element signature="e#14067#14068#0" expanded="true" />
+            <element signature="e#14101#14102#0" expanded="true" />
+            <element signature="e#14126#14127#0" expanded="true" />
+            <element signature="e#14167#14168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyGridLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OtoTurnLeft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
