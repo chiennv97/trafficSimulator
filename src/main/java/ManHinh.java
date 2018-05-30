@@ -13,7 +13,19 @@ public class ManHinh extends JFrame {
         addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
-                tapveM.setStop();
+                if (e.getKeyCode()==KeyEvent.VK_ENTER){
+                    tapveM.showPosition();
+                }
+                if (e.getKeyCode()==KeyEvent.VK_SPACE){
+                    tapveM.setStop();
+                    tapveM.setRun();
+                }
+                if (e.getKeyCode()==KeyEvent.VK_A){
+                    tapveM.pause();
+                }
+                if (e.getKeyCode()==KeyEvent.VK_B){
+                    tapveM.setRun();
+                }
             }
         });
     }
